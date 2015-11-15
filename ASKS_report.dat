@@ -1,0 +1,60 @@
+Alex Timetable
+2014-12-20 13:00 to 2014-12-24 15:00
+time	2014-12-20	2014-12-21	2014-12-22	2014-12-23	2014-12-24	
+00:00	invalid time	mmproject  	economics  	N/A		N/A		
+01:00	invalid time	mmproject  	economics  	N/A		N/A		
+02:00	invalid time	mmproject  	databasep  	N/A		N/A		
+03:00	invalid time	mmproject  	databasep  	N/A		N/A		
+04:00	invalid time	acctproject  	databasep  	N/A		N/A		
+05:00	invalid time	acctproject  	mmproject  	N/A		N/A		
+06:00	invalid time	acctproject  	mmproject  	N/A		N/A		
+07:00	invalid time	acctproject  	mmproject  	N/A		N/A		
+08:00	invalid time	OSproject  	N/A		N/A		N/A		
+09:00	invalid time	OSproject  	databasep  	databasetut  	N/A		
+10:00	invalid time	OSproject  	N/A		databasetut  	N/A		
+11:00	invalid time	OSproject  	N/A		databasetut  	N/A		
+12:00	invalid time	databasep  	N/A		N/A		N/A		
+13:00	OSproject  	databasep  	N/A		N/A		N/A		
+14:00	OSproject  	databasep  	N/A		N/A		N/A		
+15:00	OSproject  	databasep  	N/A		N/A		N/A		
+16:00	OSproject  	mmproject  	N/A		N/A		invalid time	
+17:00	databasep  	mmproject  	N/A		N/A		invalid time	
+18:00	databasep  	mmproject  	N/A		N/A		invalid time	
+19:00	financing  	mmproject  	N/A		N/A		invalid time	
+20:00	financing  	acctproject  	N/A		N/A		invalid time	
+21:00	financing  	acctproject  	N/A		N/A		invalid time	
+22:00	databasep  	databasep  	N/A		N/A		invalid time	
+23:00	databasep  	economics  	N/A		N/A		invalid time	
+
+
+
+**Summary of assignments allocation**
+
+Algorithms used: Round Robin with quantum of 4
+There are 7 assignments scheduled. Details are as follows
+ASSIGNMENT	START			END			TURNAROUND TIME
+===========================================================================
+OSproject	2014-12-20 13:00	2014-12-21 11:00	23Hrs	
+databasetut	2014-12-23 09:00	2014-12-23 11:00	3Hrs	
+databasep	2014-12-20 17:00	2014-12-22 09:00	45Hrs	
+mmproject	2014-12-21 00:00	2014-12-22 07:00	43Hrs	
+economics	2014-12-21 23:00	2014-12-22 01:00	3Hrs	
+acctproject	2014-12-21 04:00	2014-12-21 21:00	33Hrs	
+financing	2014-12-20 19:00	2014-12-20 21:00	3Hrs	
+  -end-
+
+===========================================================================
+**PERFORMANCE
+
+AVERAGE TURNAROUND TIME FOR ASSIGNMENTS: 21 HRS
+AVERAGE WAITINGTIME FOR ASSIGNMENTS: 15 HRS
+
+**Outstanding/Rejected List**
+
+Class management
+Class accounting
+Class thisisclass
+There are 3 events rejected.
+
+
+
